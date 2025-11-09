@@ -15,7 +15,7 @@ El sistema está construido con un enfoque en la **seguridad empresarial** y una
 
 Puedes probar una demostración en vivo del sistema con las siguientes credenciales de acceso.
 
-**URL:** `https://dlab-odonto.vercel.app/`
+**URL:** [www.dlab-odonto.vercel.app/](https://dlab-odonto.vercel.app/)
 
 * **Email:** `demo@demo.com`
 * **Contraseña:** `asd123`
@@ -82,14 +82,14 @@ El proyecto fue construido utilizando un stack moderno enfocado en el rendimient
 
 El diseño del sistema priorizó tres pilares fundamentales:
 
-1.  **Seguridad Progresiva:** Para no sacrificar la UX, el CAPTCHA solo aparece cuando es necesario. La seguridad debe ser inteligente, no un obstáculo.
-2.  **Integridad de Datos (Efecto Cascada):** Se implementaron validaciones estrictas (vía Reglas de Firebase y lógica de negocio) que impiden la eliminación de registros padres (Paciente, Cita, Consulta) si tienen hijos (Citas, Consultas, Pagos), asegurando la coherencia del historial.
-3.  **Inmutabilidad Financiera:** Los registros de pago nunca se eliminan, solo pueden cambiar de estado (ej. `completado` a `reembolsado`), garantizando una auditoría financiera confiable.
+1.  **Seguridad Progresiva:** Para no sacrificar la UX, el CAPTCHA **solo** aparece cuando es necesario. La seguridad debe ser inteligente, no un obstáculo.
+2.  **Integridad de Datos (Efecto Cascada):** Se implementaron validaciones estrictas (vía Reglas de Firebase y lógica de negocio) que impiden la eliminación de registros padres (Paciente, Cita, Consulta) si tienen hijos (Citas, Consultas, Pagos), asegurando la coherencia del historial.
+3.  **Inmutabilidad Financiera:** Los registros de pago nunca se eliminan, **solo** pueden cambiar de estado (ej. `completado` a `reembolsado`), garantizando una auditoría financiera confiable.
 
 ---
 
 ## 📞 Contacto
 
-Desarrollado y mantenido por **dlab.net.pe**.
+Desarrollado y mantenido por **www.dlab.net.pe**.
 
-*Este repositorio es solo una vitrina del proyecto. El código fuente es privado y no está disponible públicamente.*
+*Este repositorio es **solo** una vitrina del proyecto. El código fuente es privado y no está disponible públicamente.*
